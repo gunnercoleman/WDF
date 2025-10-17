@@ -35,8 +35,8 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: rgb(236, 167, 209);
-  --bs-dark: rgb(91, 25, 8);
+  --bs-light: rgb(255, 255, 255);
+  --bs-dark: rgb(31, 28, 28);
   --bs-primary-light: rgb(62, 22, 28);
   --bs-secondary-light: rgb(75, 105, 133);
   --bs-primary-rgb: 242, 76, 106;
@@ -45,8 +45,8 @@
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 236, 167, 209;
-  --bs-dark-rgb: 91, 25, 8;
+  --bs-light-rgb: 255, 255, 255;
+  --bs-dark-rgb: 31, 28, 28;
   --bs-primary-light-rgb: 62, 22, 28;
   --bs-secondary-light-rgb: 75, 105, 133;
   --bs-primary-text-emphasis: rgb(96.8, 30.4, 42.4);
@@ -2020,13 +2020,13 @@ progress {
 
 .table-light {
   --bs-table-color: #000;
-  --bs-table-bg: rgb(236, 167, 209);
-  --bs-table-border-color: rgb(188.8, 133.6, 167.2);
-  --bs-table-striped-bg: rgb(224.2, 158.65, 198.55);
+  --bs-table-bg: rgb(255, 255, 255);
+  --bs-table-border-color: #cccccc;
+  --bs-table-striped-bg: rgb(242.25, 242.25, 242.25);
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: rgb(212.4, 150.3, 188.1);
+  --bs-table-active-bg: rgb(229.5, 229.5, 229.5);
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: rgb(218.3, 154.475, 193.325);
+  --bs-table-hover-bg: rgb(235.875, 235.875, 235.875);
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -2034,13 +2034,13 @@ progress {
 
 .table-dark {
   --bs-table-color: #fff;
-  --bs-table-bg: rgb(91, 25, 8);
-  --bs-table-border-color: rgb(123.8, 71, 57.4);
-  --bs-table-striped-bg: rgb(99.2, 36.5, 20.35);
+  --bs-table-bg: rgb(31, 28, 28);
+  --bs-table-border-color: rgb(75.8, 73.4, 73.4);
+  --bs-table-striped-bg: rgb(42.2, 39.35, 39.35);
   --bs-table-striped-color: #fff;
-  --bs-table-active-bg: rgb(107.4, 48, 32.7);
+  --bs-table-active-bg: rgb(53.4, 50.7, 50.7);
   --bs-table-active-color: #fff;
-  --bs-table-hover-bg: rgb(103.3, 42.25, 26.525);
+  --bs-table-hover-bg: rgb(47.8, 45.025, 45.025);
   --bs-table-hover-color: #fff;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -3032,36 +3032,36 @@ textarea.form-control-lg {
 
 .btn-light {
   --bs-btn-color: #000;
-  --bs-btn-bg: rgb(236, 167, 209);
-  --bs-btn-border-color: rgb(236, 167, 209);
+  --bs-btn-bg: rgb(255, 255, 255);
+  --bs-btn-border-color: rgb(255, 255, 255);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(200.6, 141.95, 177.65);
-  --bs-btn-hover-border-color: rgb(188.8, 133.6, 167.2);
-  --bs-btn-focus-shadow-rgb: 201, 142, 178;
+  --bs-btn-hover-bg: rgb(216.75, 216.75, 216.75);
+  --bs-btn-hover-border-color: #cccccc;
+  --bs-btn-focus-shadow-rgb: 217, 217, 217;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(188.8, 133.6, 167.2);
-  --bs-btn-active-border-color: rgb(177, 125.25, 156.75);
+  --bs-btn-active-bg: #cccccc;
+  --bs-btn-active-border-color: rgb(191.25, 191.25, 191.25);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: rgb(236, 167, 209);
-  --bs-btn-disabled-border-color: rgb(236, 167, 209);
+  --bs-btn-disabled-bg: rgb(255, 255, 255);
+  --bs-btn-disabled-border-color: rgb(255, 255, 255);
 }
 
 .btn-dark {
   --bs-btn-color: #fff;
-  --bs-btn-bg: rgb(91, 25, 8);
-  --bs-btn-border-color: rgb(91, 25, 8);
+  --bs-btn-bg: rgb(31, 28, 28);
+  --bs-btn-border-color: rgb(31, 28, 28);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(115.6, 59.5, 45.05);
-  --bs-btn-hover-border-color: rgb(107.4, 48, 32.7);
-  --bs-btn-focus-shadow-rgb: 116, 60, 45;
+  --bs-btn-hover-bg: rgb(64.6, 62.05, 62.05);
+  --bs-btn-hover-border-color: rgb(53.4, 50.7, 50.7);
+  --bs-btn-focus-shadow-rgb: 65, 62, 62;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: rgb(123.8, 71, 57.4);
-  --bs-btn-active-border-color: rgb(107.4, 48, 32.7);
+  --bs-btn-active-bg: rgb(75.8, 73.4, 73.4);
+  --bs-btn-active-border-color: rgb(53.4, 50.7, 50.7);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: rgb(91, 25, 8);
-  --bs-btn-disabled-border-color: rgb(91, 25, 8);
+  --bs-btn-disabled-bg: rgb(31, 28, 28);
+  --bs-btn-disabled-border-color: rgb(31, 28, 28);
 }
 
 .btn-primary-light {
@@ -3201,36 +3201,36 @@ textarea.form-control-lg {
 }
 
 .btn-outline-light {
-  --bs-btn-color: rgb(236, 167, 209);
-  --bs-btn-border-color: rgb(236, 167, 209);
+  --bs-btn-color: rgb(255, 255, 255);
+  --bs-btn-border-color: rgb(255, 255, 255);
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(236, 167, 209);
-  --bs-btn-hover-border-color: rgb(236, 167, 209);
-  --bs-btn-focus-shadow-rgb: 236, 167, 209;
+  --bs-btn-hover-bg: rgb(255, 255, 255);
+  --bs-btn-hover-border-color: rgb(255, 255, 255);
+  --bs-btn-focus-shadow-rgb: 255, 255, 255;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(236, 167, 209);
-  --bs-btn-active-border-color: rgb(236, 167, 209);
+  --bs-btn-active-bg: rgb(255, 255, 255);
+  --bs-btn-active-border-color: rgb(255, 255, 255);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: rgb(236, 167, 209);
+  --bs-btn-disabled-color: rgb(255, 255, 255);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: rgb(236, 167, 209);
+  --bs-btn-disabled-border-color: rgb(255, 255, 255);
   --bs-gradient: none;
 }
 
 .btn-outline-dark {
-  --bs-btn-color: rgb(91, 25, 8);
-  --bs-btn-border-color: rgb(91, 25, 8);
+  --bs-btn-color: rgb(31, 28, 28);
+  --bs-btn-border-color: rgb(31, 28, 28);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(91, 25, 8);
-  --bs-btn-hover-border-color: rgb(91, 25, 8);
-  --bs-btn-focus-shadow-rgb: 91, 25, 8;
+  --bs-btn-hover-bg: rgb(31, 28, 28);
+  --bs-btn-hover-border-color: rgb(31, 28, 28);
+  --bs-btn-focus-shadow-rgb: 31, 28, 28;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: rgb(91, 25, 8);
-  --bs-btn-active-border-color: rgb(91, 25, 8);
+  --bs-btn-active-bg: rgb(31, 28, 28);
+  --bs-btn-active-border-color: rgb(31, 28, 28);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: rgb(91, 25, 8);
+  --bs-btn-disabled-color: rgb(31, 28, 28);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: rgb(91, 25, 8);
+  --bs-btn-disabled-border-color: rgb(31, 28, 28);
   --bs-gradient: none;
 }
 
@@ -6701,8 +6701,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-light-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-light:hover, .link-light:focus {
-  color: RGBA(240, 185, 218, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(240, 185, 218, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(255, 255, 255, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(255, 255, 255, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-dark {
@@ -6710,8 +6710,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--bs-dark-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
 .link-dark:hover, .link-dark:focus {
-  color: RGBA(73, 20, 6, var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(73, 20, 6, var(--bs-link-underline-opacity, 1)) !important;
+  color: RGBA(25, 22, 22, var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(25, 22, 22, var(--bs-link-underline-opacity, 1)) !important;
 }
 
 .link-primary-light {
