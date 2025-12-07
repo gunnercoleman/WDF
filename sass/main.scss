@@ -6,9 +6,11 @@ $enable-rounded: false;
 //$enable-shadows: true;
 
 //Website Colours
+
 $primary: rgb(74, 75, 93);
 $secondary: rgb(147, 0, 173);
 $danger: rgb(102, 57, 32);
+$black:    #000000 !default;
 
 //Custom Text Styling
 
@@ -23,15 +25,32 @@ $font-family-monospace: "Pixelify Sans", system-ui, -apple-system, "Segoe UI", R
 
 $h1-font-size: 3.5rem !default;
 
+$h2-font-size: 2rem !default;
+
 .navbar{
     font-family: $font-family-monospace;
 }
 
-.text-stroke{
+.text-stroke-thick{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
+}
+
+.text-stroke-thin{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     color: white;
 }
+
+//For shadow on text
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+}
+
+//Border
+$border-width:                2px !default;
+$border-color:                $black !default;
 
 
 
