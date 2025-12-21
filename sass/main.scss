@@ -22,14 +22,21 @@ $font-family-monospace: "Pixelify Sans", system-ui, -apple-system, "Segoe UI", R
   "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
+//Sets custom font sizes for headings
 
 $h1-font-size: 3.5rem !default;
 
 $h2-font-size: 2rem !default;
 
+$h3-font-size: 1.5rem !default;
+
+//Permantly makes text in Navbar and Footer to a pixel font, as I only want pixel fonts there
+
 .navbar{
     font-family: $font-family-monospace;
 }
+
+//Custom CSS for thin and thick text strokes, as bootstrap does not have this feature
 
 .text-stroke-thick{
     -webkit-text-stroke-width: 2px;
@@ -51,6 +58,10 @@ $h2-font-size: 2rem !default;
 //Border
 $border-width:                2px !default;
 $border-color:                $black !default;
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           1.875rem !default;
+$grid-row-columns:            6 !default;
 
 
 

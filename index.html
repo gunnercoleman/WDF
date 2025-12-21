@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
@@ -9,256 +10,264 @@
    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 <body>
-    <header #="top">
 
-<!-- Navbar -->
+<!--Navbar-->    
 
-      <nav class="navbar fixed-top navbar-expand-md  bg-primary bg-gradient navbar-dark border-bottom border-1 py-3">
+<header #="top">
+
+<!--Logo and Title, centers on phone. On desktop links, logo and H1 is displayed-->    
+
+    <nav class="navbar navbar-expand-md bg-primary bg-gradient navbar-dark py-4">
+
         <div class="container-xl">
-          <a class="navbar-brand" href="#">Navbar scroll</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+            <ul class="navbar-nav mx-auto mx-md-0 d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center text-stroke-thick">
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-             
+                <li class="nav-item px-2">
+                <img src="images/wizard.png" alt="" style="height: 5rem;">
+                </li>
+
+                <li class="nav-item">
+                    <h1 class="text-center text-md-start m-0">DUNGEON WALK</h1>
+                </li>
+                
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
 
-<!-- Text to left and Image to right -->
+<!-- Navigation links, collapses when on phone screen-->
 
-    <div class="container-fluid bg-primary text-light py-5 my-5">
-      <div class="container-xl">
- 
-        <!--.row.vh-50.align-items-center yo whats poppin-->
- 
-        <div class="row vh-50 align-items-center">
-          <div class="col">
- 
-            <p class="text-uppercase fw-bold fs-6">
-              Get Started
-            </p>
- 
-            <h1 class="fw-bold lh-1 display-1 primary-light">
-              This really is a great product!
-            </h1>
- 
-            <p class="fw-semibold text-uppercase">
-              It really is such a great product - elon would be so proud of us.
-            </p>
- 
-          </div>
-          <div class="col-md-6">
-            <img src="images/1.png" class="img-fluid"alt="">
-          </div>
-        </div>
-      </div>
-    </div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-md-flex collapse">
 
-<!-- Text Centred -->
- 
-    <div class="container-lg py-4">
- 
-      <!--.row>col-8>p.text-primary.text-uppercase.fw-bold.fs-6-->
- 
-      <div class="row justify-content-md-center justify-content-sm-start my-5">
- 
-        <div class="col-8">
- 
-          <p class="text-md-center text-primary text-uppercase fw-bold fs-6">
-            Get Started
-          </p>
- 
-          <p class="text-md-center 1.5 fw-semibold fs-2">
-            It really is such a great product - Elon would be so proud of us.
-            <span class="text-muted">We're a great bunch of people.</span>
-          </p>
- 
-        </div>
-      </div>
-    </div>
- 
-<!-- Cards -->    
- 
-    <div class="container-lg py-5">
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <div class="card bg-primary">
-            <img class="card-img-top" src="images/card_1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title text-light">Whats Poppin</h5>
-              <p class="card-text text-light">Right back on it, designer my garments. Corner store mornings, there until the sun down.</p>
-              <a href="#" class="btn btn-primary bg-light text-dark fw-semibold">Go somewhere</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In / Sign In</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Learn More</a>
+                </li>
+                
+            </ul>
+
+    </nav>
+
+</header>    
+
+<!--Sec 1-->    
+
+<div class="container-fluid bg-secondary">
+
+    <div class="container-xl py-5">
+
+        <div class="row align-items-center text-light">
+
+<!--Normal col, content remains the same on desktop and phone-->
+
+            <div class="col">
+                <h1 class="text-uppercase my-4 fw-bold text-shadow text-stroke-thick">Walk, Improve general Health, and Have Fun.</h1>
+                <h2 class="fw-semibold text-stroke-thin">With Dungeon Walk, Count your steps, Track your water intake, all whilst burning calories and leading to a better you. </h2>
             </div>
-          </div>
-        </div>
- 
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="images/card_2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Brand new whip</h5>
-              <p class="card-text">I just bought a new whip, I went bought another. My mother, she happy now. Ain't no cap and gown.</p>
-              <a href="#" class="btn btn-primary fw-semibold">Go somewhere</a>
+
+<!--Image col, image resizes on phone but remains visible-->            
+
+            <div class="col-md-6">
+                <img src="images/stonewall.png" class="img-fluid ">
             </div>
-          </div>
+
         </div>
- 
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="images/card_3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Just hopped in</h5>
-              <p class="card-text">They greet me at the door by my government name. I made a promise, I'm never gon' change.</p>
-              <a href="#" class="btn btn-primary fw-semibold">Go somewhere</a>
+    </div>
+</div>
+
+<!--Sec 2-->  
+
+<div class="container-fluid bg-primary">
+    <div class="container-xl py-5">
+
+<!--Three col 4s within row layout, stacks on phone-->
+
+<!--H1 is put in a row to display horizontally, title always remains center with align items center -->
+
+        <div class="row align-items-center text-light">
+            <h1 class="text-center text-stroke-thick text-shadow fw-bold">Health Benefits.</h1>
+        </div>
+
+         <div class="row">
+
+            <div class="col-md-4">
+                <img src="images/dumbell.png" class="img-fluid py-4">
+                <h2 class="text-stroke-thin text-center text-shadow fw-bold pb-2">Burn calories whilst walking.</h2>
+                <h3 class="text-light text-center fw-semibold">Dungeon Walk tracks how many calories approximately you've burned by the steps you have taken. </h3>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <hr class="border border-1 my-3opacity-10"/>
+            <div class="col-md-4">
+                <img src="images/dumbell.png" class="img-fluid py-4">
+                <h2 class="text-stroke-thin text-center text-shadow fw-bold pb-2">Improve hydration by drinking water. 
+                <h3 class="text-light text-center fw-semibold">Here we promote water intake, allowing the user to input and track how many glasses are consumed daily. </h3>
+            </div>
 
-<!-- Stars -->
+            <div class="col-md-4">
+                <img src="images/dumbell.png" class="img-fluid py-4">
+                <h2 class="text-stroke-thin text-center text-shadow fw-bold pb-2">Track how many steps you take.
+                <h3 class="text-light text-center fw-semibold">Our app has a built in step tracker, allowing the user to attack and defeat monsters based off a daily step count. </h3>
+            </div>
 
-    <div class="row my-5 justify-content-sm-center">
- 
-        <div class="col-3 btn-group" 
-            role="group" 
-            aria-label="Basic mixed styles example"
-        >
-
-            <button type="button" class="btn btn-outline-warning border-0">
-                <i class="bi bi-star-fill fs-3"></i>
-            </button>
-            
-            <button type="button" class="btn btn-outline-warning border-0">
-                <i class="bi bi-star-fill fs-3"></i>
-            </button>						
-            
-            <button type="button" class="btn btn-outline-warning border-0">
-                <i class="bi bi-star-fill fs-3"></i>
-            </button>						
-            
-            <button type="button" class="btn btn-outline-warning border-0">
-                <i class="bi bi-star-fill fs-3"></i>
-            </button>						
-            
-            <button type="button" class="btn btn-outline-warning border-0">
-                <i class="bi bi-star-fill fs-3"></i>
-            </button>
- 
-        </div>
-    </div>
-
-    <div class="row my-5 px-5">
-
-        <div class="col-4">
-
-          <p class="text-md-center 1.5 fw-semibold fs-2">
-            Title
-          </p>
- 
-          <p class="text-md-center fs-5 text-dark">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor ad magnam ullam aperiam est ducimus? Magnam, voluptatum tempora. Veniam!
-          </p>
-        </div>
-
-        <div class="col-4">
-          
-          <p class="text-md-center 1.5 fw-semibold fs-2">
-            Title
-          </p>
- 
-          <p class="text-md-center fs-5 text-dark">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor ad magnam ullam aperiam est ducimus? Magnam, voluptatum tempora. Veniam!
-          </p>
-        </div>
-
-        <div class="col-4">
-          
-          <p class="text-md-center 1.5 fw-semibold fs-2">
-            Title
-          </p>
- 
-          <p class="text-md-center fs-5 text-dark">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolor ad magnam ullam aperiam est ducimus? Magnam, voluptatum tempora. Veniam!
-          </p>
         </div>
 
     </div>
+</div>
 
-    <div class="container-fluid bg-dark">
-      <div class="col-7 mx-auto py-5 text-center">
 
-        <div class="row justify-content-center">
-          <p class="text-md-center text-light text-uppercase fw-bold fs-6">
-            Testimonial
-          </p>
+<!--Sec 3-->  
 
-          <p class="text-md-center fw-semibold text-light fs-2 py-5">
-          “innovative solution. Simplicity and ease of communication with customers and friends. I recommend it.”
-          </p>
+<!--container fluid and container-xl-->
 
-          <img src="images/headshot.jpg" class="img-fluid img-thumbnail rounded-circle mb-3" alt="Person Image"/>
+<div class="container-fluid bg-secondary">
+    <div class="container-xl py-5">
 
-          <p class="text-md-center text-light text-uppercase fw-bold fs-6">
-            anna moringo /<span class="text-light fw-light"> Project Manager</span>
-          </p>
+        <div class="row text-light">
+            <h1 class="text-center text-shadow text-stroke-thick fw-bold pb-5">Delve into the Dungeons !</h1>
+        </div>
+
+        <div class="row text-light">
+
+            <div class="col-md-3">
+                <img src="images/homepage.png" class="img-fluid border">
+            </div>
+
+            <div class="col-md-6 bg-primary border d-flex align-items-center rounded-5 bg-gradient my-5">
+                <h2 class="text-center text-stroke-thin fw-bold my-2 mx-2">Every step you take acts as an attack. Your movement in real life directly affects the dungeon mob infront of you, with each step dealing 1HP of damage!  <br></br> The more active you are, the more powerful you become, turning something as simple as walking into rewarding gameplay</h2>
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/homepage.png" class="img-fluid border">
+            </div>
 
         </div>
-      </div>
+
     </div>
+</div>
 
-    <div class="row justify-content-center py-5">
-      <div class="col-5 text-center">
-        <i class="display-1 text-success bi bi-boxes"></i>
-      </div>
+
+<!--Sec 4-->  
+
+<div class="container-fluid bg-primary">
+    <div class="container-xl py-5">
+
+        <h1 class="text-shadow text-center text-stroke-thick fw-bold pb-5">Other features. Inventory.</h1>
+
+        <div class="row text-light">
+
+            <div class="col-md-3 shadow-md">
+                <img src="images/invpage.png" class="img-fluid border">
+            </div>
+
+            <div class="col-md-9 d-flex align-items-center py-5">
+
+                <h2 class="text-center text-stroke-thin fw-bold">Your inventory is what brings your adventure to life. Use items ranging from armour like chest-pieces and helmets to weapons and rings to improve your damage and resistance when exploring the dungeon! Acquire new items through gameplay: defeating enemies, reaching your step goals, drinking water, and burning calories. When you improve your life, you improve your characters also, and your inventory becomes a reflection of your hard-work!</h2>
+            </div>
+
+        </div>
+
+
+        <h1 class="text-shadow text-center text-stroke-thick fw-bold">Quests</h1>
+
+
+        <div class="row text-light">
+
+            <div class="col-md-9 d-flex align-items-center py-5">
+                <h2 class="text-center text-stroke-thin fw-bold">The Quests tab turns everyday activities into a fun adventure. The Quests screen is divided into three categories, steps, water, and calories, with respective challenges that reset daily. For instance, taking steps ranging from 1,000 to 5,000 steps a day, drinking water from 5 to 10 cups a day or burning a set number of calories a day. Successfully fulfilling these Quests rewards the user with character XP, and new pieces of armour. Accessing the Quests tab turns daily habits into a fun and a constant process. </h2>
+            </div> 
+
+            <div class="col-md-3 text-center">
+                <img src="images/questpage.png" class="img-fluid border">
+            </div>
+
+        </div>        
+
     </div>
+</div>
 
-    <div class="row">
+<!--Sec 5-->  
 
-      <div class="col-7 mx-auto">
+<div class="container-fluid bg-secondary">
+    <div class="container-xl py-5">
 
-        <p class="text-uppercase text-primary fw-bold fs-6">
-          Get Started
-        </p>
- 
-        <h1 class="fw-bold fs-1 lh-1 display-1 primary-light">
-          This really is a great product!
-        </h1>
- 
-        <p class="text-light font-weight-semibold">
-          If you BUY now, I’ll be sending you another mystery bonus as a token of appreciation. I’m selling this for $297 but you’re getting it for FREE Today!
-        </p>
+        <div class="row d-flex flex-column justify-content-center justify-content-md-start align-items-center  text-light">
 
-      </div>
+            <div class="col-8 bg-danger text-center py-4 px-4 border">
 
-      <div class="col-7">
-        <img src="images/2.png" class="img-fluid img-thumbnail rounded-circle mb-3" alt="Person Image"/>
-      </div>
+                <h1 class="text-shadow text-stroke-thick fw-bold">Download dungeon walk now!</h1>
+
+                <div class="row bg-primary border rounded-5 px-4 text-center">
+                    <h2 class="pt-2 text-stroke-thin fw-semibold">Download</h2>
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
- 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</div>
+
+<!--Footer-->  
+
+<div class="container-fluid bg-primary">
+    <div class="container-xl py-5">
+
+<!--List and list items for footer navigation links -->        
+
+        <ul class="navbar list-unstyled text-light d-flex flex-row">
+
+            <li class="mx-4">
+                <a class="nav-link" href="#">Terms of Service</a>
+            </li>
+            <li class="mx-4">
+                <a class="nav-link" href="#">Donate</a>
+            </li>
+
+            <li class="mx-4">
+                <a class="nav-link" href="#">Manage Cookies</a>
+            </li>
+
+            <li class="mx-4">
+                <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+                
+            <li class="mx-4">
+                <a class="nav-link" href="#">Social Media</a>
+            </li>
+
+            <li class="mx-4">
+                <a class="nav-link" href="#">FAQs</a>
+            </li>
+
+        </ul>
+
+        <div class="navbar row border-top border-secondary py-5">
+            <h2 class="text-center text-light fw-semibold">© 2024 Dungeon Walk. All rights reserved.</h2>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 </body>
+
 </html>
